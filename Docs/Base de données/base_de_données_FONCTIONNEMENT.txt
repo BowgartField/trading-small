@@ -1,0 +1,14 @@
+
+La classe java TradingDataBase est initialisée lors du chargement de la classe Main.
+    -> TradingDataBase = new TradingDatabase()
+
+La base de donnée est stockée en tant que variable static au sein de la classe Main.
+Ainsi elle est accesible depuis n'importe quelle autre classe java de l'application puisque Main est la classe Parente de toute les autres.
+En effet Main est la classe qui contient le point de démmarage de l'application (fonction main() ).
+
+A SAVOIR: Le système de base de donnée n'est pas tout le temps connecter à la base de donnée. En effet à chaque requete vers la base de donné
+une nouvelle connection est initialisé vers la BDD. Une connection en continue n'était pas utile vu le peu de requete effectué vers la BDD.
+De plus toutes les requetes sont effectués dans un autre Thread afin de ne pas bloquer le Thread principale (celui de l'UI).
+
+Les fonctions faisant appel à la BDD renvoient un objet de type Service, correspondant à un nouveau Thread, qui sera traité par la fonction
+ayant fait appel. La plupart du temps est vérifié, à la suite de la réception de l'objet Service, que la tâche s'est effectué avec succès.

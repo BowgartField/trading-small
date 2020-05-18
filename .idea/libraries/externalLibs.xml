@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="externalLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/sqlite-jdbc-3.27.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/externalLibs/javafx.base.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

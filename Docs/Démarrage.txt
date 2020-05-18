@@ -1,0 +1,14 @@
+L'application démarre comme telle:
+    - La fonction Main démarre notre "ClassLoader" -> SplashScreen
+    - SplashScreen éxecute ces actions:
+        1) Charge la configuration de l'application depuis la classe Configuration
+            => REF Cofiguration/fichier_de_configuration_FONCTIONNEMENT.txt
+
+        2) Récupére les Trades depuis la base de donnée
+            => REF Base de données/base_de_données_FONCTIONNEMENT.txt
+
+        1) Affiche la fenêtre principale
+
+- Il faut savoir que les seuls fichiers de configurations externes à l'application sont la base de donnée et le fichier de configuration de l'application
+    - La base de donnée est créé à partir d'un script SQL       fichier décrit dans TradingDatabase.java
+    - le fichier de configuration est copié depuis              fichier décrit dans ApplicationProperties.java

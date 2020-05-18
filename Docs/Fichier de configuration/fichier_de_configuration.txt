@@ -1,0 +1,3 @@
+Ce fichier gére le status de l'application, c'est-à-dire l'état dans lequel est l'application configuré par L'utilisateur.
+Cela comprend:
+ - L'etat de tous les paramétres séléctionné par l'utilisateur

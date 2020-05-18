@@ -1,0 +1,7 @@
+La base de donné est une SQLITE -> donc portable.
+
+1) Elle gére dans l'application:
+    - Les Trades à risques
+    - Les Trades neutralisés
+    - La liste des marché disponibles
+    - La lite des risques disponibles

@@ -1,0 +1,1 @@
+La classe Configuration gére la configuration de l'application. Elle permet de faire le lien entre

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="TradingJournal">
+    <output-path>$PROJECT_DIR$/out/artifacts/TradingJournal</output-path>
+    <root id="root">
+      <element id="archive" name="TradingJournal.jar">
+        <element id="module-output" name="TradingJournal" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/sqlite-jdbc-3.27.2.1.jar" />
+    </root>
+  </artifact>
+</component>
